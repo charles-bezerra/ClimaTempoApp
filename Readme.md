@@ -1,4 +1,4 @@
-# Desafio ClimaTempo
+# ClimaTempo
 <p>App tem como finalidade mostrar o clima atual no local que o usuário se encontra</p>
 
 ## Como instalar
