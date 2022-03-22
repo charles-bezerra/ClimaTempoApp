@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Button from '../../atoms/Button';
-import Screen from '../../atoms/Screen';
+import Screen from '../../molecules/Screen';
 
 interface Props {
   getPermision: () => void;

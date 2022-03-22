@@ -9,7 +9,7 @@ import getNameWeater from '../../../util/getNameWeater';
 
 import Button from '../../atoms/Button';
 import Container from '../../atoms/Container';
-import Screen from '../../atoms/Screen';
+import Screen from '../../molecules/Screen';
 import TemperatureHeader from '../../molecules/TemperatureHeader';
 
 interface Props {

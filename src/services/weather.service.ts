@@ -1,5 +1,6 @@
 import axios from 'axios';
 import {Coordinates} from '../typings';
+//@ts-ignore
 import {WEATHER_API_KEY} from '@env';
 
 const ApiWeather = axios.create({
