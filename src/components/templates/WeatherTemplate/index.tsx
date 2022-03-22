@@ -39,7 +39,6 @@ const WeatherTemplate: React.FC<Props> = ({coordinates, updateCoordinates}) => {
   const callGeo = React.useCallback(
     (cdn: Coordinates) => {
       setIsLoading(true);
-
       getGeo(cdn)
         .then(data => {
           if (data) {
@@ -49,7 +48,6 @@ const WeatherTemplate: React.FC<Props> = ({coordinates, updateCoordinates}) => {
               country: data[0].country,
             });
           }
-
           callWeather(cdn);
         })
         .finally(() => {
